@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!DOCTYPE productos SYSTEM "Ejercicio-3.dtd">
+
 <productos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-            xsi:noNamespaceSchemaLocation="Marcadores.xsd">
+            xsi:noNamespaceSchemaLocation="Ejercicio-3.xsd">
 <producto>
+
     <monitor>
         <codigo>332-g</codigo>
         <nombre>Toshiba</nombre>

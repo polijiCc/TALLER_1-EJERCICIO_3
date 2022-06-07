@@ -5,8 +5,8 @@
             <xs:sequence>
                 <xs:element name="producto">
                     <xs:complexType>
-                        <xs:sequence>
-                            <xs:element name="raton" minOccurs="0" >
+                        <xs:choice>
+                            <xs:element name="raton">
                                 <xs:complexType>
                                     <xs:sequence>
                                         <xs:element name="codigo" type="xs:string"/>
@@ -15,7 +15,7 @@
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
-                            <xs:element name="teclado" minOccurs="0">
+                            <xs:element name="teclado">
                                 <xs:complexType>
                                     <xs:sequence>
                                         <xs:element name="codigo" type="xs:string"/>
@@ -24,7 +24,7 @@
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
-                            <xs:element name="monitor" minOccurs="0">
+                            <xs:element name="monitor">
                                 <xs:complexType>
                                     <xs:sequence>
                                         <xs:element name="codigo" type="xs:string"/>
@@ -33,7 +33,7 @@
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
-                        </xs:sequence>
+                        </xs:choice>
                     </xs:complexType>
                 </xs:element>
             </xs:sequence>
